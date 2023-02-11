@@ -1,0 +1,7 @@
+__pycache__/
+vEnv/
+*.egg-info/
+*.eggs
+.vscode/
+*~lock*
+.idea/
