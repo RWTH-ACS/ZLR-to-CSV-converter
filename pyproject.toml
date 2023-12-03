@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zlr_to_csv"
+authors = [
+    { name = "Manuel Pitz (RWTH Aachen University)", email = "manuel.pitz@eonerc.rwth-aachen.de" },
+]
+description = "ZLR to CSV converter"
+readme = "Readme.md"
+requires-python = ">=3.0"
+keywords = []
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = ["coloredlogs", "xmltodict"]
+version = "0.0.1"
+
+[tool.setuptools]
+packages = []
